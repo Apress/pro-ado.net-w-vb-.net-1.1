@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+	<Student ID="1">
+		<Name>John Doe</Name>
+		<Age>18</Age>
+		<GPA>3.95</GPA>
+		<LockerCombination>10-12-35</LockerCombination>
+		<Class Title="Biology" Room="100" />
+		<Class Title="English Lit" Room="101" />
+	</Student>
+	<Student ID="2">
+		<Name>Albert Morris</Name>
+		<Age>17</Age>
+		<GPA>4.0</GPA>
+		<LockerCombination>5-17-15</LockerCombination>
+		<Class Title="Computer Science" Room="102" />
+		<Class Title=".NET Basics" Room="103" />
+		<Class Title="Moral Values and Ethics in Classic Cartoons" Room="104" />
+	</Student>
+	<Student ID="3">
+		<Name>Rupert Howard</Name>
+		<Age>19</Age>
+		<GPA>1.5</GPA>
+		<LockerCombination>35-12-20</LockerCombination>
+		<Class Title="Biology" Room="200" />
+	</Student>
+	<Student ID="4">
+		<Name>Esteban Colon</Name>
+		<Age>17</Age>
+		<GPA>3.75</GPA>
+		<LockerCombination>20-14-7</LockerCombination>
+		<Class Title="Biology" Room="100" />
+		<Class Title=".NET Basics" Room="103" />
+	</Student>
+	<Student ID="5">
+		<Name>Julia Jones</Name>
+		<Age>18</Age>
+		<GPA>2.86</GPA>
+		<LockerCombination>10-34-8</LockerCombination>
+		<Class Title="Influence of Porky Pig on Modern Language" Room="105" />
+		<Class Title="An exploration of Hubris and Daffy Duck" Room="106" />
+		<Class Title="Biology" Room="200" />
+	</Student>
+	<Student ID="6">
+		<Name>Kelly Norton</Name>
+		<Age>18</Age>
+		<GPA>3.01</GPA>
+		<LockerCombination>15-13-24</LockerCombination>
+		<Class Title="Computer Science" Room="102" />
+		<Class Title=".NET Basics" Room="103" />
+		<Class Title="Moral Values and Ethics in Classic Cartoons" Room="104" />
+	</Student>
+	<Student ID="7">
+		<Name>Boy Genius</Name>
+		<Age>14</Age>
+		<GPA>4.01</GPA>
+		<LockerCombination>1-2-3</LockerCombination>
+		<Class Title="Intro to Scooby Doo Mystery Solving" Room="205" />
+	</Student>
+</Students>

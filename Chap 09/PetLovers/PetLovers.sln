@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PetLovers", "PetLovers.vbproj", "{A198C28F-CF38-42E7-B4DC-6F9B02BB0699}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PetGoodsDistributionVB", "http://localhost/PetGoodsDistribution/PetGoodsDistributionVB.vbproj", "{E74D8C64-A0F1-4ADB-B093-25817A9F1E5C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A198C28F-CF38-42E7-B4DC-6F9B02BB0699}.Debug.ActiveCfg = Debug|.NET
+		{A198C28F-CF38-42E7-B4DC-6F9B02BB0699}.Debug.Build.0 = Debug|.NET
+		{A198C28F-CF38-42E7-B4DC-6F9B02BB0699}.Release.ActiveCfg = Release|.NET
+		{A198C28F-CF38-42E7-B4DC-6F9B02BB0699}.Release.Build.0 = Release|.NET
+		{E74D8C64-A0F1-4ADB-B093-25817A9F1E5C}.Debug.ActiveCfg = Debug|.NET
+		{E74D8C64-A0F1-4ADB-B093-25817A9F1E5C}.Debug.Build.0 = Debug|.NET
+		{E74D8C64-A0F1-4ADB-B093-25817A9F1E5C}.Release.ActiveCfg = Release|.NET
+		{E74D8C64-A0F1-4ADB-B093-25817A9F1E5C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

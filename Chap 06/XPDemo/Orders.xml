@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Orders>
+  <Customer Name='Albert'>
+    <Order Quantity="12">
+      Roast Duck
+    </Order>
+    <Order Quantity="5">
+      Red Wine
+    </Order>
+  </Customer>
+  <Customer Name='John'>
+    <Order Quantity="3">
+      French Fries
+    </Order>
+    <Order Quantity="4">
+      Coffee
+    </Order>
+  </Customer>
+  <Customer Name='Stephen'>
+    <Order Quantity="5">
+      Milk
+    </Order>
+  </Customer>
+  <Customer Name='Alice'>
+    <Order Quantity="18">
+      Frozen Pizza
+    </Order>
+    <Order Quantity="3">
+      Potato Chips
+    </Order>
+  </Customer>
+</Orders>

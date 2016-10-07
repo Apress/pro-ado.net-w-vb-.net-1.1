@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="RetrieveList">
+        <s:complexType />
+      </s:element>
+      <s:element name="RetrieveListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetrieveListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="d">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="1" maxOccurs="1" name="iCustomerID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="OrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="RetrieveListSoapIn">
+    <part name="parameters" element="s0:RetrieveList" />
+  </message>
+  <message name="RetrieveListSoapOut">
+    <part name="parameters" element="s0:RetrieveListResponse" />
+  </message>
+  <message name="OrderSoapIn">
+    <part name="parameters" element="s0:Order" />
+  </message>
+  <message name="OrderSoapOut">
+    <part name="parameters" element="s0:OrderResponse" />
+  </message>
+  <portType name="Service1Soap">
+    <operation name="RetrieveList">
+      <input message="s0:RetrieveListSoapIn" />
+      <output message="s0:RetrieveListSoapOut" />
+    </operation>
+    <operation name="Order">
+      <input message="s0:OrderSoapIn" />
+      <output message="s0:OrderSoapOut" />
+    </operation>
+  </portType>
+  <binding name="Service1Soap" type="s0:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="RetrieveList">
+      <soap:operation soapAction="http://tempuri.org/RetrieveList" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Order">
+      <soap:operation soapAction="http://tempuri.org/Order" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1Soap12" type="s0:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <operation name="RetrieveList">
+      <soap12:operation soapAction="http://tempuri.org/RetrieveList" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+    <operation name="Order">
+      <soap12:operation soapAction="http://tempuri.org/Order" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </input>
+      <output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service1">
+    <port name="Service1Soap" binding="s0:Service1Soap">
+      <soap:address location="http://localhost/PetGoodsDistribution/Service1.asmx" />
+    </port>
+    <port name="Service1Soap12" binding="s0:Service1Soap12">
+      <soap12:address location="http://localhost/PetGoodsDistribution/Service1.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </port>
+  </service>
+</definitions>

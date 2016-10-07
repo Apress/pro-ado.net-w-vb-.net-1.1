@@ -1,0 +1,10 @@
+<ROOT xmlns:updg='urn:schemas-microsoft-com:xml-updategram'>
+<updg:sync>
+ 	<updg:before>
+  		<Products ProductID='2' ProductName='Chang'/>
+ 	</updg:before>
+ 	<updg:after>
+  		<Products ProductName='My New Name' />
+ 	</updg:after>
+</updg:sync>
+</ROOT>

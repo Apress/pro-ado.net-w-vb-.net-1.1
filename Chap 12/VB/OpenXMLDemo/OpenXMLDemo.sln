@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OpenXMLDemo", "OpenXMLDemo.vbproj", "{E4616B56-1C1A-4E3D-82EC-D3124C6E5BDE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E4616B56-1C1A-4E3D-82EC-D3124C6E5BDE}.Debug.ActiveCfg = Debug|.NET
+		{E4616B56-1C1A-4E3D-82EC-D3124C6E5BDE}.Debug.Build.0 = Debug|.NET
+		{E4616B56-1C1A-4E3D-82EC-D3124C6E5BDE}.Release.ActiveCfg = Release|.NET
+		{E4616B56-1C1A-4E3D-82EC-D3124C6E5BDE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

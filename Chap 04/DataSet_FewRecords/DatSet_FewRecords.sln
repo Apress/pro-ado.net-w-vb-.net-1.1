@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataSet_FewRecords", "DataSet_FewRecords.vbproj", "{AE9FE7B1-8B06-464E-860C-CCBBA42DC886}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AE9FE7B1-8B06-464E-860C-CCBBA42DC886}.Debug.ActiveCfg = Debug|.NET
+		{AE9FE7B1-8B06-464E-860C-CCBBA42DC886}.Debug.Build.0 = Debug|.NET
+		{AE9FE7B1-8B06-464E-860C-CCBBA42DC886}.Release.ActiveCfg = Release|.NET
+		{AE9FE7B1-8B06-464E-860C-CCBBA42DC886}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

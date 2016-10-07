@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SQLXML", "SQLXML.vbproj", "{6175E189-70B6-4F65-B003-5BD2BDA49AB8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6175E189-70B6-4F65-B003-5BD2BDA49AB8}.Debug.ActiveCfg = Debug|.NET
+		{6175E189-70B6-4F65-B003-5BD2BDA49AB8}.Debug.Build.0 = Debug|.NET
+		{6175E189-70B6-4F65-B003-5BD2BDA49AB8}.Release.ActiveCfg = Release|.NET
+		{6175E189-70B6-4F65-B003-5BD2BDA49AB8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

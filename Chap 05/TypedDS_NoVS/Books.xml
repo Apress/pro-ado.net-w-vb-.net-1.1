@@ -1,0 +1,35 @@
+<BookDataSet xmlns="urn:apress-proadonet-chapter5-BookDataSet.xsd">
+  <Books>
+    <BookID>1</BookID>
+    <Title>Pro ADO.NET</Title>
+    <Publisher>Apress Ltd</Publisher>
+  </Books>
+  <Books>
+    <BookID>2</BookID>
+    <Title>Professional .NET Framework</Title>
+    <Publisher>Apress Ltd</Publisher>
+  </Books>
+  <BookReviews>
+    <BookID>1</BookID>
+    <Rating>5</Rating>
+    <Review>This book was by far one of the best books on .NET ever
+            written!</Review>
+  </BookReviews>
+  <BookReviews>
+    <BookID>1</BookID>
+    <Rating>1</Rating>
+    <Review>I'm not sure this could be classified as a technical manual. It 
+            is worth more as a paperweight</Review>
+  </BookReviews>
+  <BookReviews>
+    <BookID>2</BookID>
+    <Rating>4</Rating>
+    <Review>Top Notch! Excellent book! I especially liked the chapter on 
+            Strongly-Typed DataSets and XSD schemas!</Review>
+  </BookReviews>
+  <BookReviews>
+    <BookID>2</BookID>
+    <Rating>2</Rating>
+    <Review>I liked the introduction. That's it.</Review>
+  </BookReviews>
+</BookDataSet>

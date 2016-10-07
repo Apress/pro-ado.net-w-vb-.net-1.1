@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsd:schema id="dsOrder" targetNamespace="http://tempuri.org/dsOrder.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/dsOrder.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:NS="http://tempuri.org/dsOrder.xsd">
+	<xsd:element name="dsOrder" msdata:IsDataSet="true">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="Basket">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="SKU" type="xsd:string" minOccurs="0" />
+							<xsd:element name="Description" type="xsd:string" minOccurs="0" />
+							<xsd:element name="QTY" type="xsd:short" minOccurs="0" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Order">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="OrderID" type="xsd:long" minOccurs="0" />
+							<xsd:element name="SKU" type="xsd:string" minOccurs="0" />
+							<xsd:element name="CustomerName" type="xsd:string" minOccurs="0" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+		<xsd:key name="dsOrderKey1" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//Basket" />
+			<xsd:field xpath="SKU" />
+		</xsd:key>
+		<xsd:key name="dsOrderKey" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//Order" />
+			<xsd:field xpath="OrderID" />
+		</xsd:key>
+		<xsd:key name="dsOrderFKey">
+			<xsd:selector xpath=".//Order" />
+			<xsd:field xpath="SKU" />
+		</xsd:key>
+		<xsd:keyref name="OrderBasket" refer="dsOrderFKey" msdata:ConstraintOnly="true">
+			<xsd:selector xpath=".//Basket" />
+			<xsd:field xpath="SKU" />
+		</xsd:keyref>
+	</xsd:element>
+</xsd:schema>

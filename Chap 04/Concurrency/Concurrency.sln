@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Concurrency", "Concurrency.vbproj", "{935BEF2F-5E8E-4739-B5CD-EB5F676558C7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{935BEF2F-5E8E-4739-B5CD-EB5F676558C7}.Debug.ActiveCfg = Debug|.NET
+		{935BEF2F-5E8E-4739-B5CD-EB5F676558C7}.Debug.Build.0 = Debug|.NET
+		{935BEF2F-5E8E-4739-B5CD-EB5F676558C7}.Release.ActiveCfg = Release|.NET
+		{935BEF2F-5E8E-4739-B5CD-EB5F676558C7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

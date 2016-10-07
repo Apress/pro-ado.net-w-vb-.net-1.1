@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DACommands2", "DACommands2.vbproj", "{8013E75E-777E-4759-9E92-96A8D98E456E}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8013E75E-777E-4759-9E92-96A8D98E456E}.Debug.ActiveCfg = Debug|.NET
+		{8013E75E-777E-4759-9E92-96A8D98E456E}.Debug.Build.0 = Debug|.NET
+		{8013E75E-777E-4759-9E92-96A8D98E456E}.Release.ActiveCfg = Release|.NET
+		{8013E75E-777E-4759-9E92-96A8D98E456E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

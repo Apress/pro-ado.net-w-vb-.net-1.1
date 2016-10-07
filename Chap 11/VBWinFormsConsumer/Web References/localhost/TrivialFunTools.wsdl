@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://www.dotnetjunkies.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.dotnetjunkies.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.dotnetjunkies.com">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="RandomNumberGenerator">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LowNumber" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="HighNumber" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RandomNumberGeneratorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RandomNumberGeneratorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllMovieQuotes">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllMovieQuotesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllMovieQuotesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="int" type="s:int" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="RandomNumberGeneratorSoapIn">
+    <part name="parameters" element="s0:RandomNumberGenerator" />
+  </message>
+  <message name="RandomNumberGeneratorSoapOut">
+    <part name="parameters" element="s0:RandomNumberGeneratorResponse" />
+  </message>
+  <message name="GetAllMovieQuotesSoapIn">
+    <part name="parameters" element="s0:GetAllMovieQuotes" />
+  </message>
+  <message name="GetAllMovieQuotesSoapOut">
+    <part name="parameters" element="s0:GetAllMovieQuotesResponse" />
+  </message>
+  <message name="RandomNumberGeneratorHttpGetIn">
+    <part name="LowNumber" type="s:string" />
+    <part name="HighNumber" type="s:string" />
+  </message>
+  <message name="RandomNumberGeneratorHttpGetOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="GetAllMovieQuotesHttpGetIn" />
+  <message name="GetAllMovieQuotesHttpGetOut">
+    <part name="Body" element="s0:DataSet" />
+  </message>
+  <message name="RandomNumberGeneratorHttpPostIn">
+    <part name="LowNumber" type="s:string" />
+    <part name="HighNumber" type="s:string" />
+  </message>
+  <message name="RandomNumberGeneratorHttpPostOut">
+    <part name="Body" element="s0:int" />
+  </message>
+  <message name="GetAllMovieQuotesHttpPostIn" />
+  <message name="GetAllMovieQuotesHttpPostOut">
+    <part name="Body" element="s0:DataSet" />
+  </message>
+  <portType name="TrivialFunToolsSoap">
+    <operation name="RandomNumberGenerator">
+      <documentation>Generate a random number between two values.&lt;br&gt;This Web service demonstrates how a basic Web service works.</documentation>
+      <input message="s0:RandomNumberGeneratorSoapIn" />
+      <output message="s0:RandomNumberGeneratorSoapOut" />
+    </operation>
+    <operation name="GetAllMovieQuotes">
+      <documentation>Get all movie quotes.&lt;br&gt;This Web service shows how you can return a DataSet.</documentation>
+      <input message="s0:GetAllMovieQuotesSoapIn" />
+      <output message="s0:GetAllMovieQuotesSoapOut" />
+    </operation>
+  </portType>
+  <portType name="TrivialFunToolsHttpGet">
+    <operation name="RandomNumberGenerator">
+      <documentation>Generate a random number between two values.&lt;br&gt;This Web service demonstrates how a basic Web service works.</documentation>
+      <input message="s0:RandomNumberGeneratorHttpGetIn" />
+      <output message="s0:RandomNumberGeneratorHttpGetOut" />
+    </operation>
+    <operation name="GetAllMovieQuotes">
+      <documentation>Get all movie quotes.&lt;br&gt;This Web service shows how you can return a DataSet.</documentation>
+      <input message="s0:GetAllMovieQuotesHttpGetIn" />
+      <output message="s0:GetAllMovieQuotesHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="TrivialFunToolsHttpPost">
+    <operation name="RandomNumberGenerator">
+      <documentation>Generate a random number between two values.&lt;br&gt;This Web service demonstrates how a basic Web service works.</documentation>
+      <input message="s0:RandomNumberGeneratorHttpPostIn" />
+      <output message="s0:RandomNumberGeneratorHttpPostOut" />
+    </operation>
+    <operation name="GetAllMovieQuotes">
+      <documentation>Get all movie quotes.&lt;br&gt;This Web service shows how you can return a DataSet.</documentation>
+      <input message="s0:GetAllMovieQuotesHttpPostIn" />
+      <output message="s0:GetAllMovieQuotesHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="TrivialFunToolsSoap" type="s0:TrivialFunToolsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="RandomNumberGenerator">
+      <soap:operation soapAction="http://www.dotnetjunkies.com/RandomNumberGenerator" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetAllMovieQuotes">
+      <soap:operation soapAction="http://www.dotnetjunkies.com/GetAllMovieQuotes" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="TrivialFunToolsHttpGet" type="s0:TrivialFunToolsHttpGet">
+    <http:binding verb="GET" />
+    <operation name="RandomNumberGenerator">
+      <http:operation location="/RandomNumberGenerator" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetAllMovieQuotes">
+      <http:operation location="/GetAllMovieQuotes" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="TrivialFunToolsHttpPost" type="s0:TrivialFunToolsHttpPost">
+    <http:binding verb="POST" />
+    <operation name="RandomNumberGenerator">
+      <http:operation location="/RandomNumberGenerator" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetAllMovieQuotes">
+      <http:operation location="/GetAllMovieQuotes" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="TrivialFunTools">
+    <documentation>This is a collection of silly Web services that demonstrate various Web service capabilities.</documentation>
+    <port name="TrivialFunToolsSoap" binding="s0:TrivialFunToolsSoap">
+      <soap:address location="http://localhost/ProADONET/VBProvider/TrivialFunTools.asmx" />
+    </port>
+    <port name="TrivialFunToolsHttpGet" binding="s0:TrivialFunToolsHttpGet">
+      <http:address location="http://localhost/ProADONET/VBProvider/TrivialFunTools.asmx" />
+    </port>
+    <port name="TrivialFunToolsHttpPost" binding="s0:TrivialFunToolsHttpPost">
+      <http:address location="http://localhost/ProADONET/VBProvider/TrivialFunTools.asmx" />
+    </port>
+  </service>
+</definitions>

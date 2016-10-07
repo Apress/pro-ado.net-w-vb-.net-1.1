@@ -1,0 +1,45 @@
+<?xml version="1.0" ?> 
+<MovieQuotes>
+  <MovieQuote>
+    <Quote>Have you ever danced with the devil in the pale moonlight?</Quote>
+    <Movie>Batman</Movie>
+    <ActorOrCharacter>Jack Napier (Jack Nicholson)</ActorOrCharacter>
+  </MovieQuote>
+ 
+  <MovieQuote>
+    <Quote>Quite an experience to live in fear, isn't it? That's what it is to be a slave.</Quote>
+    <Movie>Blade Runner</Movie>
+    <ActorOrCharacter>Roy Batty (Rutger Hauer)</ActorOrCharacter>
+  </MovieQuote>
+  
+  <MovieQuote>
+    <Quote>You think you're big time? You gonna die big time!</Quote>
+    <Movie>Carlito's Way</Movie>
+    <ActorOrCharacter>Carlito (Al Pacino)</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>Some things are true whether you believe in them or not.</Quote>
+    <Movie>City of Angels</Movie>
+    <ActorOrCharacter>Seth</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>Vanity! My favorite sin.</Quote>
+    <Movie>Devil's Advocate</Movie>
+    <ActorOrCharacter>John Milton (Al Pachinno)</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>This is the strangest life I've ever known.</Quote>
+    <Movie>The Doors</Movie>
+    <ActorOrCharacter>Jim Morrison (Val Kilmer)</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>This is your life, it doesn't get better than this. This is your life and it's ending one minute at time.</Quote>
+    <Movie>Fight Club</Movie>
+    <ActorOrCharacter>Tyler Durden (Brad Pitt)</ActorOrCharacter>
+  </MovieQuote>
+  
+</MovieQuotes>

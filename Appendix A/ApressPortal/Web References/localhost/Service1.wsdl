@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:i0="http://tempuri.org/dsWebService.xsd" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <import namespace="http://tempuri.org/dsWebService.xsd" location="http://localhost/BltAirlinesWebServiceVB/Service1.asmx?schema=dsWebService" />
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://tempuri.org/dsWebService.xsd" />
+      <s:element name="RetrieveFlights">
+        <s:complexType />
+      </s:element>
+      <s:element name="RetrieveFlightsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetrieveFlightsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://tempuri.org/dsWebService.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="RetrieveFlightsSoapIn">
+    <part name="parameters" element="s0:RetrieveFlights" />
+  </message>
+  <message name="RetrieveFlightsSoapOut">
+    <part name="parameters" element="s0:RetrieveFlightsResponse" />
+  </message>
+  <portType name="Service1Soap">
+    <operation name="RetrieveFlights">
+      <input message="s0:RetrieveFlightsSoapIn" />
+      <output message="s0:RetrieveFlightsSoapOut" />
+    </operation>
+  </portType>
+  <binding name="Service1Soap" type="s0:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="RetrieveFlights">
+      <soap:operation soapAction="http://tempuri.org/RetrieveFlights" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service1">
+    <port name="Service1Soap" binding="s0:Service1Soap">
+      <soap:address location="http://localhost/BltAirlinesWebServiceVB/Service1.asmx" />
+    </port>
+  </service>
+</definitions>

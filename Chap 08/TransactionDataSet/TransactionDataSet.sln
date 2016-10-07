@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TransactionDataSet", "TransactionDataSet.vbproj", "{C512F068-04A7-4AC6-A443-DFE2761D682E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C512F068-04A7-4AC6-A443-DFE2761D682E}.Debug.ActiveCfg = Debug|.NET
+		{C512F068-04A7-4AC6-A443-DFE2761D682E}.Debug.Build.0 = Debug|.NET
+		{C512F068-04A7-4AC6-A443-DFE2761D682E}.Release.ActiveCfg = Release|.NET
+		{C512F068-04A7-4AC6-A443-DFE2761D682E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

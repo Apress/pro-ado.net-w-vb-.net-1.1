@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ApressBooks>
+  <Book ISBN="1590593601" Title="Beginning C# Objects: From Concepts to Code" />
+  <Book ISBN="1590591364" Title="Applied .NET Attributes" />
+  <Book ISBN="1590592883" Title="Developing Application Frameworks in .NET" />
+</ApressBooks>

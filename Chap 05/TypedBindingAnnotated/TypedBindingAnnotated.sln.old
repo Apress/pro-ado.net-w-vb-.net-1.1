@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TypedBindingAnnotated", "TypedBindingAnnotated.vbproj", "{8FEC85F9-02EA-4982-B406-D5A90A0981FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8FEC85F9-02EA-4982-B406-D5A90A0981FE}.Debug.ActiveCfg = Debug|.NET
+		{8FEC85F9-02EA-4982-B406-D5A90A0981FE}.Debug.Build.0 = Debug|.NET
+		{8FEC85F9-02EA-4982-B406-D5A90A0981FE}.Release.ActiveCfg = Release|.NET
+		{8FEC85F9-02EA-4982-B406-D5A90A0981FE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

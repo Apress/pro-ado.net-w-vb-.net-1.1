@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ApressBooks>
+ <Book ISBN="1590593601" Title="Beginning C# Objects: From Concepts to Code" Price="33.99"/>
+ <Book ISBN="1590591364" Title="Applied .NET Attributes" Price="23.79"/>
+ <Book ISBN="1590592883" Title="Developing Application Frameworks in .NET" Price="33.99"/>
+</ApressBooks>

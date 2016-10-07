@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsEmployee" targetNamespace="http://tempuri.org/dsEmployee.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsEmployee.xsd" xmlns:mstns="http://tempuri.org/dsEmployee.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsEmployee" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Employees">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="FirstName" type="xs:string" />
+							<xs:element name="LastName" type="xs:string" />
+							<xs:element name="HomePhone" type="xs:string" minOccurs="0" />
+							<xs:element name="EmployeeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

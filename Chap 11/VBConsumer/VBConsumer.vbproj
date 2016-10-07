@@ -1,0 +1,294 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{87AE04B4-ABD2-4A41-A424-BE30F2B02616}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "VBConsumer"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "VBConsumer"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Consumer1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Consumer1.aspx.vb"
+                    DependentUpon = "Consumer1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Consumer1.aspx.resx"
+                    DependentUpon = "Consumer1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Consumer2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Consumer2.aspx.vb"
+                    DependentUpon = "Consumer2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Consumer2.aspx.resx"
+                    DependentUpon = "Consumer2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DataSetConsumer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSetConsumer.aspx.vb"
+                    DependentUpon = "DataSetConsumer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSetConsumer.aspx.resx"
+                    DependentUpon = "DataSetConsumer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HttpConsumer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HttpConsumer.aspx.vb"
+                    DependentUpon = "HttpConsumer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HttpConsumer.aspx.resx"
+                    DependentUpon = "HttpConsumer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HttpGetConsumer.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PrivateSoapConsumer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PrivateSoapConsumer.aspx.vb"
+                    DependentUpon = "PrivateSoapConsumer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PrivateSoapConsumer.aspx.resx"
+                    DependentUpon = "PrivateSoapConsumer.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TrivialFunToolsProxy.vb"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "VBConsumer.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web References\localhost\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\localhost\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\localhost\TrivialFunTools.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\localhost\TrivialFunTools.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\localhost\"
+                    WebReferenceUrl = "http://localhost/ProADONET/VBProvider/TrivialFunTools.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\localhost1\PrivateServices.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\localhost1\PrivateServices.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\localhost1\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\localhost1\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\localhost1\"
+                    WebReferenceUrl = "http://localhost/ProADONET/VBProvider/PrivateServices.asmx"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

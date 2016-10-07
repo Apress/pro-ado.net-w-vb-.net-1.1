@@ -1,0 +1,46 @@
+<?xml version="1.0" ?> 
+
+<MovieQuotes>
+  <MovieQuote>
+    <Quote>Honestly, this isn't really a brains kind of operation.</Quote>
+    <Movie>The Way of the Gun</Movie>
+    <ActorOrCharacter>Benicio del Toro</ActorOrCharacter>
+  </MovieQuote>
+  
+  <MovieQuote>
+    <Quote>I've got to return some video tapes.</Quote>
+    <Movie>American Psycho</Movie>
+    <ActorOrCharacter>Patrick Bateman (Christian Bale)</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>You're a Movie of the Week...a T-shirt at best.</Quote>
+    <Movie>Seven</Movie>
+    <ActorOrCharacter>Detective Wills (Brad Pitt)</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>Go to work. Go home.  Put on a silly hat.  Do whatever it is morons do.</Quote>
+    <Movie>Under Suspicion</Movie>
+    <ActorOrCharacter>Morgan Freeman</ActorOrCharacter>
+  </MovieQuote>
+
+  <MovieQuote>
+    <Quote>Come and get me boys.</Quote>
+    <Movie>Moulin Rouge</Movie>
+    <ActorOrCharacter>Satine (Nicole Kidman)</ActorOrCharacter>
+  </MovieQuote>  
+  
+   <MovieQuote>
+     <Quote>Running wit tha five slamma jamma, rubbin' stank all over the rib tickling scoop of double vanilla funk.</Quote>
+     <Movie>Bedazzled</Movie>
+     <ActorOrCharacter>Sportscaster (Orlando Jones)</ActorOrCharacter>
+  </MovieQuote>
+
+   <MovieQuote>
+     <Quote>The war is over, I saw it on T.V.</Quote>
+     <Movie>Wag the Dog</Movie>
+     <ActorOrCharacter>Rober DeNiro</ActorOrCharacter>
+  </MovieQuote>
+
+</MovieQuotes>

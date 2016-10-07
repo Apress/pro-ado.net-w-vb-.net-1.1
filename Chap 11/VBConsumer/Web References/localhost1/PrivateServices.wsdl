@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://www.dotnetjunkies.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.dotnetjunkies.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.dotnetjunkies.com">
+      <s:element name="GetMySecret">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMySecretResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMySecretResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mySoapHeader" type="s0:mySoapHeader" />
+      <s:complexType name="mySoapHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="GetMySecretSoapIn">
+    <part name="parameters" element="s0:GetMySecret" />
+  </message>
+  <message name="GetMySecretSoapOut">
+    <part name="parameters" element="s0:GetMySecretResponse" />
+  </message>
+  <message name="GetMySecretmySoapHeader">
+    <part name="mySoapHeader" element="s0:mySoapHeader" />
+  </message>
+  <portType name="PrivateServicesSoap">
+    <operation name="GetMySecret">
+      <documentation>Get a secret that no one else can get.</documentation>
+      <input message="s0:GetMySecretSoapIn" />
+      <output message="s0:GetMySecretSoapOut" />
+    </operation>
+  </portType>
+  <portType name="PrivateServicesHttpGet" />
+  <portType name="PrivateServicesHttpPost" />
+  <binding name="PrivateServicesSoap" type="s0:PrivateServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetMySecret">
+      <soap:operation soapAction="http://www.dotnetjunkies.com/GetMySecret" style="document" />
+      <input>
+        <soap:body use="literal" />
+        <soap:header d5p1:required="true" message="s0:GetMySecretmySoapHeader" part="mySoapHeader" use="literal" xmlns:d5p1="http://schemas.xmlsoap.org/wsdl/" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="PrivateServicesHttpGet" type="s0:PrivateServicesHttpGet">
+    <http:binding verb="GET" />
+  </binding>
+  <binding name="PrivateServicesHttpPost" type="s0:PrivateServicesHttpPost">
+    <http:binding verb="POST" />
+  </binding>
+  <service name="PrivateServices">
+    <documentation>This is a Web service that demonstrates SOAP Authentication.</documentation>
+    <port name="PrivateServicesSoap" binding="s0:PrivateServicesSoap">
+      <soap:address location="http://localhost/ProADONET/VBProvider/PrivateServices.asmx" />
+    </port>
+    <port name="PrivateServicesHttpGet" binding="s0:PrivateServicesHttpGet">
+      <http:address location="http://localhost/ProADONET/VBProvider/PrivateServices.asmx" />
+    </port>
+    <port name="PrivateServicesHttpPost" binding="s0:PrivateServicesHttpPost">
+      <http:address location="http://localhost/ProADONET/VBProvider/PrivateServices.asmx" />
+    </port>
+  </service>
+</definitions>

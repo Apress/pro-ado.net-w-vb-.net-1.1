@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ApressBooks>
+  <Book ISBN="1590593601" Title="Beginning C# Objects: From Concepts to Code" >
+    <Chapter Number="1" Title="A Little Taste of C#">
+      <Review Rating="5">
+        One of the best introductory chapters ever written.
+      </Review>
+    </Chapter>
+    <Chapter Number="2" Title="Abstraction and Modeling">
+      <Review Rating="3">
+        Good explanation of a difficult topic.
+      </Review>
+    </Chapter>
+  </Book>
+  <Book ISBN="1590591364" Title="Applied .NET Attributes">
+    <Chapter Number="1" Title="Attribute Fundamentals">
+      <Review Rating="3">
+        I thought it was a splendid chapter.
+      </Review>
+      <Review Rating="5">
+        Top notch intro. Two thumbs up.
+      </Review>
+    </Chapter>
+  </Book>
+  <Book ISBN="1590592883" Title="Application Frameworks in .NET">
+    <Chapter Number="10" Title="Authorization Service">
+      <Review Rating="4">
+        A must read for everyone.
+      </Review>
+    </Chapter>
+  </Book>
+</ApressBooks>

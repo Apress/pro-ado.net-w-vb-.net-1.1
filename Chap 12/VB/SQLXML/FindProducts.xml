@@ -1,0 +1,8 @@
+<ROOT xmlns:sql='urn:schemas-microsoft-com:xml-sql'>
+    <sql:header>
+		<sql:param name="ProductName"/>		
+    </sql:header>
+    <sql:query>
+		SELECT * FROM products where ProductName LIKE @ProductName FOR XML AUTO
+    </sql:query>
+</ROOT> 

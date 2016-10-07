@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Authors>
+  <Table>
+    <au_id>172-32-1176</au_id>
+    <au_lname>White</au_lname>
+    <au_fname>Johnson</au_fname>
+    <phone>408 496-7223</phone>
+  </Table>
+  <Table>
+    <au_id>213-46-8915</au_id>
+    <au_lname>Green</au_lname>
+    <au_fname>Marjorie</au_fname>
+    <phone>415 986-7020</phone>
+  </Table>
+</Authors>

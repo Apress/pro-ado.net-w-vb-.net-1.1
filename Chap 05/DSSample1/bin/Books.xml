@@ -1,0 +1,10 @@
+<BookDataSet xmlns="urn:apress-proadonet-chapter5-BookDataSet.xsd">
+  <Books>
+    <Title>Pro ADO.NET</Title>
+    <Publisher>Apress Ltd</Publisher>
+  </Books>
+  <Books>
+    <Title>Professional .NET Framework</Title>
+    <Publisher>Apress Ltd</Publisher>
+  </Books>
+</BookDataSet>

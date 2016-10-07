@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ADOInterOp2", "ADOInterOp2.vbproj", "{03D0A576-77E3-497C-A250-A4A3A88B8BA6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{03D0A576-77E3-497C-A250-A4A3A88B8BA6}.Debug.ActiveCfg = Debug|.NET
+		{03D0A576-77E3-497C-A250-A4A3A88B8BA6}.Debug.Build.0 = Debug|.NET
+		{03D0A576-77E3-497C-A250-A4A3A88B8BA6}.Release.ActiveCfg = Release|.NET
+		{03D0A576-77E3-497C-A250-A4A3A88B8BA6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

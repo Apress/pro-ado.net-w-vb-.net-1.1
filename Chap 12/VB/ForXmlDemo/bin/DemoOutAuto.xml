@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<Schema1>
+  <R RegionID="1" RegionDesc="Eastern">
+    <T TerritoryID="01581" TerritoryDesc="Westboro" />
+    <T TerritoryID="01730" TerritoryDesc="Bedford" />
+    <T TerritoryID="01833" TerritoryDesc="Georgetow" />
+    <T TerritoryID="02116" TerritoryDesc="Boston" />
+    <T TerritoryID="02139" TerritoryDesc="Cambridge" />
+    <T TerritoryID="02184" TerritoryDesc="Braintree" />
+    <T TerritoryID="02903" TerritoryDesc="Providence" />
+    <T TerritoryID="06897" TerritoryDesc="Wilton" />
+    <T TerritoryID="07960" TerritoryDesc="Morristown" />
+    <T TerritoryID="08837" TerritoryDesc="Edison" />
+    <T TerritoryID="10019" TerritoryDesc="New York" />
+    <T TerritoryID="10038" TerritoryDesc="New York" />
+    <T TerritoryID="11747" TerritoryDesc="Mellvile" />
+    <T TerritoryID="14450" TerritoryDesc="Fairport" />
+    <T TerritoryID="19713" TerritoryDesc="Neward" />
+    <T TerritoryID="20852" TerritoryDesc="Rockville" />
+    <T TerritoryID="27403" TerritoryDesc="Greensboro" />
+    <T TerritoryID="27511" TerritoryDesc="Cary" />
+    <T TerritoryID="40222" TerritoryDesc="Louisville" />
+  </R>
+  <R RegionID="2" RegionDesc="Western">
+    <T TerritoryID="60179" TerritoryDesc="Hoffman Estates" />
+    <T TerritoryID="60601" TerritoryDesc="Chicago" />
+    <T TerritoryID="80202" TerritoryDesc="Denver" />
+    <T TerritoryID="80909" TerritoryDesc="Colorado Springs" />
+    <T TerritoryID="85014" TerritoryDesc="Phoenix" />
+    <T TerritoryID="85251" TerritoryDesc="Scottsdale" />
+    <T TerritoryID="90405" TerritoryDesc="Santa Monica" />
+    <T TerritoryID="94025" TerritoryDesc="Menlo Park" />
+    <T TerritoryID="94105" TerritoryDesc="San Francisco" />
+    <T TerritoryID="95008" TerritoryDesc="Campbell" />
+    <T TerritoryID="95054" TerritoryDesc="Santa Clara" />
+    <T TerritoryID="95060" TerritoryDesc="Santa Cruz" />
+    <T TerritoryID="98004" TerritoryDesc="Bellevue" />
+    <T TerritoryID="98052" TerritoryDesc="Redmond" />
+    <T TerritoryID="98104" TerritoryDesc="Seattle" />
+  </R>
+  <R RegionID="3" RegionDesc="Northern">
+    <T TerritoryID="03049" TerritoryDesc="Hollis" />
+    <T TerritoryID="03801" TerritoryDesc="Portsmouth" />
+    <T TerritoryID="19428" TerritoryDesc="Philadelphia" />
+    <T TerritoryID="44122" TerritoryDesc="Beachwood" />
+    <T TerritoryID="45839" TerritoryDesc="Findlay" />
+    <T TerritoryID="48075" TerritoryDesc="Southfield" />
+    <T TerritoryID="48084" TerritoryDesc="Troy" />
+    <T TerritoryID="48304" TerritoryDesc="Bloomfield Hills" />
+    <T TerritoryID="53404" TerritoryDesc="Racine" />
+    <T TerritoryID="55113" TerritoryDesc="Roseville" />
+    <T TerritoryID="55439" TerritoryDesc="Minneapolis" />
+  </R>
+  <R RegionID="4" RegionDesc="Southern">
+    <T TerritoryID="29202" TerritoryDesc="Columbia" />
+    <T TerritoryID="30346" TerritoryDesc="Atlanta" />
+    <T TerritoryID="31406" TerritoryDesc="Savannah" />
+    <T TerritoryID="32859" TerritoryDesc="Orlando" />
+    <T TerritoryID="33607" TerritoryDesc="Tampa" />
+    <T TerritoryID="72716" TerritoryDesc="Bentonville" />
+    <T TerritoryID="75234" TerritoryDesc="Dallas" />
+    <T TerritoryID="78759" TerritoryDesc="Austin" />
+  </R>
+</Schema1>

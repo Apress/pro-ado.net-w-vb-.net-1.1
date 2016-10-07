@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Schema1>
+  <row FirstName="Steven" LastName="Buchanan" />
+  <row FirstName="Laura" LastName="Callahan" />
+  <row FirstName="Nancy" LastName="Davolio" />
+  <row FirstName="Anne" LastName="Dodsworth" />
+  <row FirstName="Andrew" LastName="Fuller" />
+  <row FirstName="Robert" LastName="King" />
+  <row FirstName="Janet" LastName="Leverling" />
+  <row FirstName="Margaret" LastName="Peacock" />
+  <row FirstName="Michael" LastName="Suyama" />
+</Schema1>
